@@ -1,1 +1,1 @@
-https://panchalshubham.github.io/CodeBuddy/.
+https://panchalshubham.github.io/CodeBuddy

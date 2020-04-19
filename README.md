@@ -1,2 +1,1 @@
-# CodeBuddy
-This repository contains code-buddy application
+https://panchalshubham.github.io/CodeBuddy/.

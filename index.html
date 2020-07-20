@@ -17,54 +17,75 @@
 <body>
 	<div class="container" style="margin-top: 20px;">
 		<h1 style="border-bottom: 2px solid black;">Code Buddy</h1>
-		<p><em>Code Buddy</em> is a simple desktop application designed for conducting coding assignments!</p>
+		<p><em>Code Buddy</em> is a simple desktop application designed for conducting coding assessments!</p>
 		<p style="margin-top: 50px;">
 			<h3 style="border-bottom: 2px solid black;">Features of Code  Buddy</h3>
 			<ul>
 				<li>No registration required</li>
-				<li>Support for multiple languages i.e. C, C++ and Java</li>
-				<li>Create problem once and share with your students via a code-buddy(*.cb) file</li>
-				<li>Correction against multiple test cases and a quick result</li>
+				<li>Works completely offline</li>
+				<li>Support for multiple programming languages i.e. C, C++, Java and Python</li>
+				<li>Automatic testing against pre-defined test cases</li>
+				<li>Rich-code editor with syntax highlighting for multiple programming languages</li>
+				<li>and many more...</li>
 			</ul>
 		</p>
 		<p style="margin-top: 50px;">
 			<h3 style="border-bottom: 2px solid black;">Dependency</h3>
-			You need to first install JDK(Java Development Kit) or JRE(Java Runtime Environment) version - 8 in order to run this application<br>
-			You can download the JDK8 from <a href="https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html">here</a><br>
-			For those having Linux OS can install JDK8 via quick command as following:<br>
-			<em>
-				sudo apt-get update<br>
-				sudo apt-get install openjdk-8-jdk<br>
-			</em>
-			<br>
-			A compiler of your choice i.e. gcc-compiler for C, g++ compiler for C++ and JDK8 you already have for Java<br>
-			<strong>Don't forget to configure your path variables!</strong>
+			You need to first install JDK(Java Development Kit) or JRE(Java Runtime Environment) version 8 in order to run this application<br>
+			You can download the JDK8 from <a href="https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html">here</a> according to your operating system<br>
+			You can verify your installation with following command<br>
+			<strong><em>java -version</em></strong><br>
+			The following image shows the output for Ubutnu-16.04<br>
+			<img src="images/reference.png">
+
 		</p>
 		<p style="margin-top: 50px;">
 			<h3 style="border-bottom: 2px solid black;">Download and Installation</h3>
-			Click <a href="codebuddy-v1.1-jar/CodeBuddy.jar">here</a> to download the CodeBuddy-v1.1 JAR file<br>
-			Click <a href="codebuddy-v1.0-jar/CodeBuddy.jar">here</a> to download the CodeBuddy-v1.0 JAR file<br>
+			<a href="codebuddy-v2.0-jar/CodeBuddy.jar">Download CodeBuddy-v2.0 JAR</a><br>
+			<a href="codebuddy-v1.1-jar/CodeBuddy.jar">Download CodeBuddy-v1.1 JAR</a><br>
+			<a href="codebuddy-v1.0-jar/CodeBuddy.jar">Download CodeBuddy-v1.0 JAR</a><br>
 			Once you have installed JDK8 and configured the path variables then you can run the application in either way:<br>
 			<ol>
 				<li>Double click on the application</li>
 				<li>Run the command <em>java -jar CodeBuddy.jar</em></li>
 			</ol>
-			<strong>If your system do not give execution permission then you can change the permissions of the file and make it executable</strong>
+			<strong>If your system do not give execution permission then you can change the permissions of the file and make it executable</strong> <br>
+			The following snapshot shows how to run this application via command-line<br>
+			<img src="images/run.png">
 		</p>
 		<p style="margin-top: 50px;">
-			<h3 style="border-bottom: 2px solid black;">Updates in CodeBuddy-v1.1</h3>
+			<h3 style="border-bottom: 2px solid black;">Release notes for CodeBuddy-v2.0</h3>
+			Following are the features added in this release<br>
+			<ul>
+				<li>Added support for more than one problem in single assessment</li>
+				<li>Added rich text-editor for instructors</li>
+				<li>Added rich code-editor with syntax highlighting</li>
+				<li>Allowed editing for previously created assessments</li>
+				<li>Added support for maintaining list of submissions and rollbacks</li>
+				<li>Enhanced GUI</li>
+				<li>Improved code execution process</li>
+				<li>Improved error-handling mechanism</li>
+			</ul>
+			Following are the bugs to be fixed in next release<br>
+			<ul>
+				<li>Doesn't select font-family in editor by default and thus forces the instructors to select a font-family before writing the problem statement (throws Exception otherwise)</li>
+				<li>Fails to execute user's code if path to application contains white-spaces</li>
+			</ul>
+		</p>
+		<p style="margin-top: 50px;">
+			<h3 style="border-bottom: 2px solid black;">Release notes for CodeBuddy-v1.1</h3>
 			<ul>
 				<li>Added support for command line arguments per test case</li>
 				<li>Added support for time limit on program</li>
 				<li>Fixed other minor bugs</li>
 			</ul>
-			<strong>We regret to inform that CodeBuddy-v1.1 isn't compatible with CodeBuddy-v1.0 ):<br>We promise to stay backward compatible for future release:)</strong>
 		</p>
 		<p style="margin-top: 50px;">
 			<h3 style="border-bottom: 2px solid black;">Feedback/Suggestion</h3>
 			We would love to listen to your feedback. You can reach to us via:<br>
 			<ul>
-				<li>Email: shubhampanchal9773@gmail.com</li>
+				<li>Email: shubhampanchal9773@gmail.com, panchalprogrammingacademy@gmail.com</li>
+				<li>Mobile: +91 9773669462</li>
 				<li>WhatsApp: +91 9773669462</li>
 			</ul>
 		</p>

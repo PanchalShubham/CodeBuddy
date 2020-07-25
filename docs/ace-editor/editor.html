@@ -58,6 +58,10 @@
       var editor = ace.edit("editor");
       return editor.getValue();
     }
+    function setCode(code){
+      var editor = ace.edit("editor");
+      editor.setValue(code, 1);
+    }
 
 </script>
 

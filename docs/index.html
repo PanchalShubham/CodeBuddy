@@ -9,6 +9,8 @@
 	integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<!-- Google Font -->
 	<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+	<!-- Favicon-->
+	<link rel="icon" href="images/icon.png" type="image/gif" sizes="16x16">
 	<style>
 		*{font-family: 'Libre Baskerville', serif;}
 	</style>
@@ -16,7 +18,7 @@
 </head>
 <body>
 	<div class="container" style="margin-top: 20px;">
-		<h1 style="border-bottom: 2px solid black;">Code Buddy</h1>
+		<h1 style="border-bottom: 2px solid black;"><img src="images/icon.png" width="60" height="60">Code Buddy</h1>
 		<p><em>Code Buddy</em> is a simple desktop application designed for conducting coding assessments!</p>
 		<p style="margin-top: 50px;">
 			<h3 style="border-bottom: 2px solid black;">Features of Code  Buddy</h3>
@@ -39,6 +41,7 @@
 		</p>
 		<p style="margin-top: 50px;">
 			<h3 style="border-bottom: 2px solid black;">Download and Installation</h3>
+			<a href="codebuddy-v2.1-jar/CodeBuddy.jar" download>Download CodeBuddy-v2.1 JAR</a><br>
 			<a href="codebuddy-v2.0-jar/CodeBuddy.jar" download>Download CodeBuddy-v2.0 JAR</a><br>
 			<a href="codebuddy-v1.1-jar/CodeBuddy.jar" download>Download CodeBuddy-v1.1 JAR</a><br>
 			<a href="codebuddy-v1.0-jar/CodeBuddy.jar" download>Download CodeBuddy-v1.0 JAR</a><br>
@@ -46,11 +49,26 @@
 			<em>java -jar CodeBuddy.jar</em><br>
 			The following snapshot shows how to run this application via command-line<br>
 			<img src="images/run.png">
-<!-- 			<a href="https://docs.google.com/document/d/1xQTHIujQoK1K9HPWWEEde_z3cW8mG9aYQlmERay1tEU/edit?usp=sharing">Student's guide</a>
- -->
+		</p>
+		<p style="margin-top: 50px;">
+			<h3 style="border-bottom: 2px solid black;">Release notes for CodeBuddy-v2.1</h3>
+			<strong><em>Wohoo! Compatible with assessments created with v2.0, so users of v2.0 can safely switch to v2.1 for more interesting features</em></strong><br>
+			Following are the features added in this release<br>
+			<ul>
+				<li>Added support for import test-cases for instructors</li>
+				<li>Added support for import/export code for students</li>
+				<li>Added support for custom-testing for students</li>
+				<li>Added some-interesting themes for code-editor</li>
+				<li>Fixed refresh question button working</li>
+				<li>Disabled auto-scroll for writing code</li>
+				<li>Fixed command-line-arguments parsing bug from last release</li>
+				<li>Fixed bug mentioned in the last release (now works with path containing whitespaces)</li>
+				<li>Improved code execution process</li>
+			</ul>
 		</p>
 		<p style="margin-top: 50px;">
 			<h3 style="border-bottom: 2px solid black;">Release notes for CodeBuddy-v2.0</h3>
+			<strong><em>NOT compatible with assessments created with v1.1</em></strong><br>
 			Following are the features added in this release<br>
 			<ul>
 				<li>Added support for more than one problem in single assessment</li>
@@ -72,6 +90,7 @@
 		</p>
 		<p style="margin-top: 50px;">
 			<h3 style="border-bottom: 2px solid black;">Release notes for CodeBuddy-v1.1</h3>
+			<strong><em>NOT compatible with assessments created with v1.0</em></strong><br>
 			<ul>
 				<li>Added support for command line arguments per test case</li>
 				<li>Added support for time limit on program</li>
